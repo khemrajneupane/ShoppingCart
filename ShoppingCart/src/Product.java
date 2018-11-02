@@ -1,3 +1,4 @@
+//product object that takes three parameters...
 
 public class Product {
 	private int productNum;
@@ -8,15 +9,14 @@ public class Product {
 		productNum = 0;
 		productPrice = 0.00;
 		productName = "";
-		
 	}
+	
 	public Product(int productNum, String productName, double productPrice) {
 		this.productNum = productNum;
 		this.productName = productName;
 		this.productPrice = productPrice;
 	}
 
-	
 	public int getProductNum() {
 		return productNum;
 	}
